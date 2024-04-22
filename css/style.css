@@ -588,7 +588,8 @@ a.totop-link {
 }
 .introduction h2 {
     border: none;
-    color: #aeaeae;
+    /* color: #aeaeae; */
+    color: black;
     text-transform: uppercase;
     line-height: 50px;
     padding-bottom: 0;
@@ -596,14 +597,20 @@ a.totop-link {
     margin-bottom: 35px
 }
 .introduction .inner {
-    margin: 47% 0 0 0;
+    margin: 10% 0 0 0;
     position:absolute;
     z-index:2;
+    color: black;
+    /* Changes font size of paragraph on main page */
+    font-size: 18px; 
+    /* font-weight: bold; */
+
 }
 .introduction span.title {
     border-bottom: 1px solid #7a7a7a;
     border-top: 1px solid #7a7a7a;
-    color: #aeaeae;
+    /* color: #aeaeae; */
+    color: black;
     padding: 15px 0;
     letter-spacing: 1px;
     text-transform: uppercase;
